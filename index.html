@@ -90,13 +90,41 @@
       font-size: 0.9rem;
       border-top: 1px solid #e0e6ee;
     }
+
+
+
+    table {
+      table-layout: fixed;
+      width: 55%;
+      margin: 10px auto;
+      border-collapse: collapse;
+    }
+
+    th, 
+    td {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .column-background {
+      background-color: #97db9a;
+    }
+    .column-fixed-width {
+      width 40px;
+    }
+
+    .column-background-border{
+      background-color: #dcc48e;
+      border: 4px solid #c1437a
+    }
+
   </style>
 </head>
 <body>
 
   <header>
     <h1>Welcome to My Page</h1>
-    <p>Built in Week 1 of Internet Programming ; and it's only going to get better from here.</p>
+    <p>Built in Week 1 of Internet Programming ; it's only going to get better from here.</p>
     <nav>
       <a href="#about">About</a>
       <a href="#roadmap">This Semester</a>
@@ -125,6 +153,7 @@
         <li><strong>Usability</strong>Test and improve real interfaces</li>
       </ul>
 
+    <p>&nbsp;</p>
     <table>
     <caption>Fall 2026 Holidays</caption>
     <thead>
@@ -180,29 +209,29 @@
       <p> Instagram - afloppyhouse</p>
     </section>
 
-        <section> Leave a comment!
-    <form action="index.html" method="post">
-          <p>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" required />
-      </p>
-      <p>
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" />
-      </p>
-      <p>
-      <label for="subject">Subject:</label>
-      <input type="text" id="sunject" subject="message_subject" required />
-      </p>
-      <p>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message">Write here...</textarea>
-      </p>
+    <section> Leave a comment!
+      <form action="index.html" method="post">
+            <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required />
+        </p>
+        <p>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" />
+        </p>
+        <p>
+        <label for="subject">Subject:</label>
+        <input type="text" id="sunject" subject="message_subject" required />
+        </p>
+        <p>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message">Write here...</textarea>
+        </p>
 
-      <p class="button">
-      <button type="submit">Submit</button>
-    </p>
-    </form>
+        <p class="button">
+        <button type="submit">Submit</button>
+      </p>
+      </form>
     </section>
 
   </main>
