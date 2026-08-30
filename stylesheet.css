@@ -112,6 +112,7 @@
       border: 2px solid #490D70;
     }
 
+    button,
     input {
         padding: 6px;
         margin: 10px;
@@ -131,6 +132,7 @@
         font-weight: bold;
     }
     
+    button:hover,
     textarea:focus,
     input:focus {
         border: 3px solid #6f1e9e;
